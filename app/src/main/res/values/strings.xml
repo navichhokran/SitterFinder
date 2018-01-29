@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Sitter Finder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_view_profile">View Profile</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_sitter_details">Sitter Details</string>
+
+    <string-array name="sitterType">
+        <item>Both</item>
+        <item>Baby Sitter</item>
+        <item>Animal Sitter</item>
+    </string-array>
+
+    <string-array name="sitterStatus">
+    <item>Available</item>
+    <item>Busy</item>
+</string-array>
+
+    <string-array name="sitterStatusAll">
+        <item>Both</item>
+        <item>Available</item>
+        <item>Busy</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_delete_profile">DeleteProfile</string>
+</resources>

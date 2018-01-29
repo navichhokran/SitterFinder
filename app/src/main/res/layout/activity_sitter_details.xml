@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/title_activity_sitter_details"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="User Name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TxtUname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Default"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="Email ID"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TxtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Default"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="Phone Number"
+            />
+
+        <TextView
+            android:id="@+id/TxtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Default"
+            />
+
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="Sitter Type"
+            />
+
+        <TextView
+            android:id="@+id/TxtType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Both"
+            />
+
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="Sitter Status"
+            />
+
+        <TextView
+            android:id="@+id/TxtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Available"
+            />
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:ems="12"
+            android:text="Work Experience" />
+
+        <TextView
+            android:id="@+id/TxtWorkEx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Default"
+            />
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="12"
+            android:textStyle="bold|italic"
+            android:text="Service Provided" />
+
+        <TextView
+            android:id="@+id/TxtServiceProvided"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:text="Default"
+            />
+</LinearLayout>
+</ScrollView>
